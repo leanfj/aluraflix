@@ -1,68 +1,134 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Aluraflix](./assets/logo-aluraflix.png)
 
-## Available Scripts
+# Aluraflix
+> Imersão reactjs Alura
 
-In the project directory, you can run:
+Projeto desenvolvido durante a semana de imersão reactjs da Alura desenvolvendo um app semelhante a Netflix com videos de minha escolha.
 
-### `npm start`
+## Instalação / Começando
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A quick introduction of the minimal setup you need to get a hello world up &
+running.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```shell
+packagemanager install awesome-project
+awesome-project start
+awesome-project "Do something!"  # prints "Nah."
+```
 
-### `npm test`
+Here you should say what actually happens when you execute the code above.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Initial Configuration
 
-### `npm run build`
+Some projects require initial configuration (e.g. access tokens or keys, `npm i`).
+This is the section where you would document those requirements.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Developing
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Here's a brief intro about what a developer must do in order to start developing
+the project further:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell
+git clone https://github.com/your/awesome-project.git
+cd awesome-project/
+packagemanager install
+```
 
-### `npm run eject`
+And state what happens step-by-step.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Building
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If your project needs some additional steps for the developer to build the
+project after some code changes, state them here:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```shell
+./configure
+make
+make install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Here again you should state what actually happens when the code above gets
+executed.
 
-## Learn More
+### Deploying / Publishing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In case there's some step you have to take that publishes this project to a
+server, this is the right time to state it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```shell
+packagemanager deploy awesome-project -s server.com -u username -p password
+```
 
-### Code Splitting
+And again you'd need to tell what the previous code actually does.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Features
 
-### Analyzing the Bundle Size
+What's all the bells and whistles this project can perform?
+* What's the main functionality
+* You can also do another thing
+* If you get really randy, you can even do this
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Configuration
 
-### Making a Progressive Web App
+Here you should write what are all of the configurations a user can enter when
+using the project.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+#### Argument 1
+Type: `String`  
+Default: `'default value'`
 
-### Advanced Configuration
+State what an argument does and how you can use it. If needed, you can provide
+an example below.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Example:
+```bash
+awesome-project "Some other value"  # Prints "You're nailing this readme!"
+```
 
-### Deployment
+#### Argument 2
+Type: `Number|Boolean`  
+Default: 100
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Copy-paste as many of these as you need.
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+When you publish something open source, one of the greatest motivations is that
+anyone can just jump in and start contributing to your project.
+
+These paragraphs are meant to welcome those kind souls to feel that they are
+needed. You should state something like:
+
+"If you'd like to contribute, please fork the repository and use a feature
+branch. Pull requests are warmly welcome."
+
+If there's anything else the developer needs to know (e.g. the code style
+guide), you should link it here. If there's a lot of things to take into
+consideration, it is common to separate this section to its own file called
+`CONTRIBUTING.md` (or similar). If so, you should say that it exists here.
+
+## Links
+
+Even though this information can be found inside the project on machine-readable
+format like in a .json file, it's good to include a summary of most useful
+links to humans using your project. You can include links like:
+
+- Project homepage: https://your.github.com/awesome-project/
+- Repository: https://github.com/your/awesome-project/
+- Issue tracker: https://github.com/your/awesome-project/issues
+  - In case of sensitive bugs like security vulnerabilities, please contact
+    my@email.com directly instead of using issue tracker. We value your effort
+    to improve the security and privacy of this project!
+- Related projects:
+  - Your other project: https://github.com/your/other-project/
+  - Someone else's project: https://github.com/someones/awesome-project/
+
+
+## Licensing
+
+One really important part: Give your project a proper license. Here you should
+state what the license is and how to find the text version of the license.
+Something like:
+
+"The code in this project is licensed under MIT license."
+

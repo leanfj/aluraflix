@@ -1,14 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-function FormField({label, type, name, value, onChange}) {
+function FormField({
+  label, type, name, value, onChange,
+}) {
+  const htmlFor = `id_${name}`;
+
   return (
     <div>
-      <label>
+      <label htmlFor={htmlFor}>
         {label}
-        <input type={type} value={value} onChange={onChange} name={name} />
+        <input id={htmlFor} type={type} value={value} onChange={onChange} name={name} />
       </label>
     </div>
-  )
+  );
 }
 
-export default FormField
+export default FormField;
